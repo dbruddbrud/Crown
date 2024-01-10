@@ -1,0 +1,147 @@
+.more_btn {
+  width: 270px;
+  height: 49px;
+  padding: 0 18px;
+  box-sizing: border-box;
+  border: solid 1px #cecece;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  transition-duration: 0.2s;
+}
+
+.section_3 .more_btn {
+  right: 8%;
+  top: 19%;
+}
+
+.more_btn > span > a {
+  font-size: 16px;
+  color: #8c8c8c;
+  font-weight: 300;
+}
+
+.btn_arrow, .btn_arrow_white{
+  width: 5%;
+  position: absolute;
+  top: 17px;
+  right: 17px;
+}
+
+.more_btn:hover>a>.btn_arrow{
+  display: none;
+}
+
+.more_btn:hover{
+  background-color: #ffc278;
+  border: solid 1px #ffc278;
+}
+
+.more_btn:hover>span>a{
+  color: #fff;
+  font-weight: 500;
+}
+
+.more_btn:hover>a>.btn_arrow{
+  display: none;
+}
+
+.more_btn_c {
+  width: 270px;
+  height: 49px;
+  padding: 0 18px;
+  box-sizing: border-box;
+  background-color: rgb(255, 55, 55, 0.75);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition-duration: 0.2s;
+}
+
+.more_btn_c > span > a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.more_btn_c:hover{
+  background-color: #ffffff4d;
+}
+
+@media all and (max-width: 1024px) {
+      
+    .more_btn {
+        width: 220px;
+        height: 43px;
+        padding: 0 12px;
+        right: unset;
+        top: unset;
+        display: flex;
+      }
+    
+      .more_btn > span > a {
+        font-size: 14px;
+      }
+    
+      .more_btn_c {
+        width: 210px;
+        height: 44px;
+        padding: 0 18px;
+        box-sizing: border-box;
+        background-color: rgb(255, 55, 55, 0.75);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .more_btn_c > span > a {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+      }
+    
+      .more_btn_c > a > img {
+        display: block;
+      }
+}
+
+@media all and (max-width: 450px) {
+  .more_btn {
+    width: 170px;
+    height: 31px;
+    padding: 0 10px;
+    right: unset;
+    top: unset;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -85px;
+    display: flex;
+  }
+
+  .more_btn > span > a {
+    font-size: 10px;
+  }
+
+  .more_btn_c {
+    width: 210px;
+    height: 44px;
+    padding: 0 18px;
+    box-sizing: border-box;
+    background-color: rgb(255, 55, 55, 0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .more_btn_c > span > a {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .more_btn_c > a > img {
+    display: block;
+  }
+
+}
